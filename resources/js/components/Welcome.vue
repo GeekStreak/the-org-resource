@@ -21,7 +21,7 @@
         <br>
         <h3>Join our discord below</h3>
         <a href="https://discord.gg/nnPS2Pzxe9">
-        <img src="images/discord_logo.png" alt="discord" width="300">
+        <img src="https://drive.google.com/uc?export=view&id=1tUrYfvXDyVSSDWKs2RghremB-F9SEgz9" width="300">
         </a>
         <br>
         <br>
