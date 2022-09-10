@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2><b>The home of many resources for Online Reality Games</b></h2><br>
+        <h2><b>The home of many resources for Online Reality Games!</b></h2><br>
         <h3>Find your next ORG to join</h3>
         <router-link :to="{name:'posts.index'}" active-class="border-b-2 border-indigo-400" class="router-link-active inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
             FIND ORGS
