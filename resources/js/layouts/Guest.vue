@@ -25,7 +25,7 @@
                             </router-link>
                         </div>
                     </div>
-                    <button type="button" class="inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:shadow-outline-gray transition ease-in-out duration-150 ml-4">
+                    <button type="button">
                         <router-link :to="{name:'login'}" active-class="border-b-2 border-indigo-400" class="text-white inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
                             Login
                         </router-link>
