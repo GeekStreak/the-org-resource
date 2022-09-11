@@ -84,17 +84,20 @@ export default {
                 }
             })
             .finally(this.processing = false)
+            console.log("Submit Login");
         },
         loginUser(response){
             this.user.name = response.data.name
             this.user.email = response.data.email
             localStorage.setItem('loggedIn', JSON.stringify(true))
             this.router.push({name: 'posts.indexadmin'})
+            console.log("Login User");
         },
         getUser(){
             axios.get('/api/user')
             .then(response => {
                 this.loginUser(response)
+                console.log("Get User");
                 //this.$store.commit('storeUser',response)
                 //this.router.push({name: 'posts.index'})
             })
