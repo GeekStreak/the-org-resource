@@ -89,7 +89,10 @@ export default {
             axios.get('/api/user')
             .then(response => {
                 this.user.name = response.data.name
+                console.log(this.user.name);
                 this.user.email = response.data.email
+                console.log(this.user.email);
+                console.log("get the damn user");
                 //this.$store.commit('storeUser',response)
                 //this.router.push({name: 'posts.index'})
             })
