@@ -82,9 +82,13 @@ export default {
         }
     },
     mounted() {
+        this.test()
         this.getUser()
     },
     methods: {
+        test(){
+            console.log('TESTER!!!!!');
+        },
         getUser(){
             axios.get('/api/user')
             .then(response => {

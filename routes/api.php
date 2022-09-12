@@ -16,15 +16,12 @@ use Illuminate\Support\Facades\Route;
 
 
 
-//Route::group(['middleware' => 'auth:sanctum'], function() {
-    //Route::get('/user', function (Request $request) {
-        //return $request->user();
-    //});
-//});
-
-Route::get('/user', function (Request $request) {
-    return $request->user();
+Route::group(['middleware' => 'auth:sanctum'], function() {
+    Route::get('/user', function (Request $request) {
+        return $request->user();
+    });
 });
+
 Route::apiResource('posts', \App\Http\Controllers\Api\PostController::class);
 Route::apiResource('resources', \App\Http\Controllers\Api\ResourcesController::class);
 Route::get('categories', [\App\Http\Controllers\Api\CategoryController::class, 'index']);
