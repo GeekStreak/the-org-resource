@@ -63,7 +63,7 @@ const routes = [
                 path: '/posts/resource/:id',
                 name: 'posts.resource',
                 component: PostsResource,
-                meta: { title: 'Challenge' }
+                meta: { title: 'Challenges' }
             },
         ]
     },
