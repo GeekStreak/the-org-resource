@@ -22684,7 +22684,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   src: "https://drive.google.com/uc?export=view&id=1LjwvoLD5AWoljckGx_6edzWkxvBRF_mq",
   width: "300",
   "class": "center"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br")])], -1
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "work please")])], -1
 /* HOISTED */
 );
 
@@ -23879,7 +23879,7 @@ var routes = [{
     name: 'posts.resource',
     component: _components_Posts_Resource__WEBPACK_IMPORTED_MODULE_5__["default"],
     meta: {
-      title: 'Challenge'
+      title: 'Challenges'
     }
   }]
 }, {
