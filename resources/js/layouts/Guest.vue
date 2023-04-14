@@ -12,7 +12,7 @@
                             </router-link>
                         </div>
 
-                        <!-- Navigation Links -->
+                        <!-- Desktop menu -->
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                             <router-link :to="{name:'posts.index'}" active-class="border-b-2 border-indigo-400" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
                                 Servers
@@ -25,8 +25,7 @@
                             </router-link>
                         </div>
                     </div>
-
-                    <!-- Mobile Links -->
+                    <!-- Navigation Links -->
                     <div class="sm:hidden sm:block flex items-center">
                         <div @click="showMenu = !showMenu" class="flex md:hidden">
                             <button
@@ -118,6 +117,11 @@
 
 <script>
 export default {
+    data() {
+        return {
+        showMenu: false,
+        };
+    },
     computed: {
         currentPageTitle(){
             return this.$route.meta.title;
@@ -125,4 +129,10 @@ export default {
     }
 }
 </script>
+
+<style>
+.d2 {
+  transition: all 0.3s ease-in-out;
+}
+</style>
     
