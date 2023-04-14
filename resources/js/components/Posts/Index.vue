@@ -84,7 +84,7 @@
                         {{ post.contentShort }}
                     </td>
                     <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                        {{ post.link }}
+                        <a :href="post.link" class="hover:text-indigo-500 hover:underline">{{ post.link }}</a>
                     </td>
                     <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
                         {{ post.created_at }}
@@ -201,5 +201,8 @@ a.page-link:hover {
 }
 a.page-link span.sr-only {
     display: none;
+}
+div.max-w-screen {
+  overflow-x: auto;
 }
 </style>
