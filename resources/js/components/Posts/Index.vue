@@ -101,13 +101,12 @@
                             </th>
                             <th class="px-6 py-3 bg-gray-50 text-left">
                                 <select v-model="search_category" class="inline-block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
-                                <option value="" selected>-- all types --</option>
-                                <option v-for="category in categories" :value="category.id">{{ category.name }}</option>
+                                    <option value="" selected>-- all types --</option>
+                                    <option v-for="category in categories" :value="category.id">{{ category.name }}</option>
                                 </select>
                             </th>
                         </tr>
                     </thead>
-                    <br>
                     <tbody class="bg-white divide-y divide-gray-200 divide-solid">
                         <tr v-for="post in posts.data">
                             <div class="shadow">
