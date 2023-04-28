@@ -93,30 +93,34 @@
                 </tbody>
             </table>
             <div class="min-w-full md:hidden">
-                <tr class="flex flex-col">
-                    <th class="px-6 py-3 bg-gray-50 text-left">
-                        <input v-model="search_title" type="text" class="inline-block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Filter by Title">
-                    </th>
-                    <th class="px-6 py-3 bg-gray-50 text-left">
-                        <select v-model="search_category" class="inline-block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
-                        <option value="" selected>-- all types --</option>
-                        <option v-for="category in categories" :value="category.id">{{ category.name }}</option>
-                        </select>
-                    </th>
-                </tr>
-                <br>
-                <tbody class="bg-white divide-y divide-gray-200 divide-solid">
-                    <tr v-for="post in posts.data">
-                        <div class="shadow">
-                            <h2 class="px-6 py-2 whitespace-no-wrap text-base leading-5 text-gray-900 bg-stone-100"><b>{{ post.title }}</b> <i>{{ post.category }}</i></h2>
-                            <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">{{ post.contentShort }} </p>
-                            <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900 underline">
-                                <a :href="post.link" class="hover:text-indigo-500 hover:underline">{{ post.link }}</a>
-                            </p>
-                        </div>
-                        <br>
-                    </tr>
-                </tbody>
+                <table>
+                    <thead>
+                        <tr class="flex flex-col">
+                            <th class="px-6 py-3 bg-gray-50 text-left">
+                                <input v-model="search_title" type="text" class="inline-block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Filter by Title">
+                            </th>
+                            <th class="px-6 py-3 bg-gray-50 text-left">
+                                <select v-model="search_category" class="inline-block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                                <option value="" selected>-- all types --</option>
+                                <option v-for="category in categories" :value="category.id">{{ category.name }}</option>
+                                </select>
+                            </th>
+                        </tr>
+                    </thead>
+                    <br>
+                    <tbody class="bg-white divide-y divide-gray-200 divide-solid">
+                        <tr v-for="post in posts.data">
+                            <div class="shadow">
+                                <h2 class="px-6 py-2 whitespace-no-wrap text-base leading-5 text-gray-900 bg-stone-100"><b>{{ post.title }}</b> <i>{{ post.category }}</i></h2>
+                                <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">{{ post.contentShort }} </p>
+                                <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900 underline">
+                                    <a :href="post.link" class="hover:text-indigo-500 hover:underline">{{ post.link }}</a>
+                                </p>
+                            </div>
+                            <br>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <Pagination :data="posts" @pagination-change-page="page => fetchPosts(page, search_category, orderColumn, orderDirection)" />
         </div>
