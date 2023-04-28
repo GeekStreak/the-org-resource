@@ -1,8 +1,8 @@
 <template>
-    <div class="overflow-hidden overflow-x-auto p-6 bg-white border-gray-200">
+    <div class="p-6 bg-white border-gray-200">
         <h1><b>Find your next ORG below...</b></h1><br>
-        <div class="min-w-full align-middle">
-            <table class="min-w-full divide-y divide-gray-200 border">
+        <div class="max-w-screen overflow-w-auto ">
+            <table class="min-w-full divide-y divide-gray-200 border overflow-x-auto hidden md:block">
                 <thead>
                 <tr>
                     <th class="px-6 py-3 bg-gray-50 text-left">
@@ -24,7 +24,7 @@
                 </tr>
                 <tr>
                     <th class="px-6 py-3 bg-gray-50 text-left">
-                                                <div class="flex flex-row items-center justify-between cursor-pointer" @click="updateOrdering('title')">
+                        <div class="flex flex-row items-center justify-between cursor-pointer" @click="updateOrdering('title')">
                             <div class="leading-4 font-medium text-gray-500 uppercase tracking-wider" :class="{ 'font-bold text-blue-600': orderColumn === 'title' }">
                                 Title
                             </div>
@@ -92,6 +92,32 @@
                 </tr>
                 </tbody>
             </table>
+            <div class="min-w-full overflow-x-auto md:hidden">
+                <tr class="flex flex-col">
+                    <th class="px-6 py-3 bg-gray-50 text-left">
+                        <input v-model="search_title" type="text" class="inline-block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Filter by Title">
+                    </th>
+                    <th class="px-6 py-3 bg-gray-50 text-left">
+                        <select v-model="search_category" class="inline-block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                        <option value="" selected>-- all types --</option>
+                        <option v-for="category in categories" :value="category.id">{{ category.name }}</option>
+                        </select>
+                    </th>
+                </tr>
+                <br>
+                <tbody class="bg-white divide-y divide-gray-200 divide-solid">
+                    <tr v-for="post in posts.data">
+                        <div class="shadow">
+                            <h2 class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900 bg-stone-100"><b>{{ post.title }}</b> ({{ post.category }}) </h2>
+                            <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">{{ post.contentShort }} </p>
+                            <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                                <a :href="post.link" class="hover:text-indigo-500 hover:underline">{{ post.link }}</a>
+                            </p>
+                        </div>
+                        <br>
+                    </tr>
+                </tbody>
+            </div>
             <Pagination :data="posts" @pagination-change-page="page => fetchPosts(page, search_category, orderColumn, orderDirection)" />
         </div>
         <br>
