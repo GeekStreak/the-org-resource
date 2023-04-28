@@ -92,7 +92,7 @@
                 </tr>
                 </tbody>
             </table>
-            <div class="min-w-full overflow-x-auto md:hidden">
+            <div class="min-w-full md:hidden">
                 <tr class="flex flex-col">
                     <th class="px-6 py-3 bg-gray-50 text-left">
                         <input v-model="search_title" type="text" class="inline-block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" placeholder="Filter by Title">
