@@ -92,8 +92,8 @@
                 </tr>
                 </tbody>
             </table>
-            <div class="min-w-full md:hidden">
-                <table>
+            <div class="max-w-screen overflow-x-auto md:hidden">
+                <table class="min-w-full">
                     <thead>
                         <tr class="flex flex-col">
                             <th class="px-6 py-3 bg-gray-50 text-left">
