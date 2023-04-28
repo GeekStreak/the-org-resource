@@ -107,6 +107,7 @@
                             </th>
                         </tr>
                     </thead>
+                    <br>
                     <tbody class="bg-white divide-y divide-gray-200 divide-solid">
                         <tr v-for="post in posts.data">
                             <div class="shadow">
