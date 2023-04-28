@@ -83,7 +83,7 @@
                     <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
                         {{ post.contentShort }}
                     </td>
-                    <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                    <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900 underline">
                         <a :href="post.link" class="hover:text-indigo-500 hover:underline">{{ post.link }}</a>
                     </td>
                     <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
@@ -110,7 +110,7 @@
                         <div class="shadow">
                             <h2 class="px-6 py-2 whitespace-no-wrap text-base leading-5 text-gray-900 bg-stone-100"><b>{{ post.title }}</b> <i>{{ post.category }}</i></h2>
                             <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">{{ post.contentShort }} </p>
-                            <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                            <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900 underline">
                                 <a :href="post.link" class="hover:text-indigo-500 hover:underline">{{ post.link }}</a>
                             </p>
                         </div>
