@@ -108,7 +108,7 @@
                 <tbody class="bg-white divide-y divide-gray-200 divide-solid">
                     <tr v-for="post in posts.data">
                         <div class="shadow">
-                            <h2 class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900 bg-stone-100"><b>{{ post.title }}</b> ({{ post.category }}) </h2>
+                            <h2 class="px-6 py-2 whitespace-no-wrap text-base leading-5 text-gray-900 bg-stone-100"><b>{{ post.title }}</b> <i>{{ post.category }}</i></h2>
                             <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">{{ post.contentShort }} </p>
                             <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">
                                 <a :href="post.link" class="hover:text-indigo-500 hover:underline">{{ post.link }}</a>
