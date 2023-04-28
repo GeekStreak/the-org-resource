@@ -1,7 +1,7 @@
 <template>
     <div class="p-6 bg-white border-gray-200">
         <h1><b>Find your next ORG below...</b></h1><br>
-        <div class="max-w-screen overflow-w-auto ">
+        <div class="max-w-screen">
             <table class="min-w-full divide-y divide-gray-200 border overflow-x-auto hidden md:block">
                 <thead>
                 <tr>
