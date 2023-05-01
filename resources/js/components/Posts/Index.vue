@@ -113,9 +113,13 @@
                             <div class="shadow">
                                 <h2 class="px-6 py-2 whitespace-no-wrap text-base leading-5 text-gray-900 bg-stone-100"><b>{{ post.title }}</b> <i>{{ post.category }}</i></h2>
                                 <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">{{ post.contentShort }} </p>
-                                <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900 underline">
-                                    <a :href="post.link" class="hover:text-indigo-500 hover:underline">{{ post.link }}</a>
-                                </p>
+                                <div class="text-center">
+                                    <button class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 m-2 border border-blue-700 rounded">
+                                    <a :href="post.link" class="hover:text-white">
+                                        Join Server
+                                    </a>
+                                    </button>
+                                </div>
                             </div>
                             <br>
                         </tr>
