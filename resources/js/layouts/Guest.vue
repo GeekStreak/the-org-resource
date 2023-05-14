@@ -81,6 +81,8 @@
                             <router-link :to="{name:'posts.graphics'}" active-class="border-b-2 border-indigo-400" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
                                 Graphics
                             </router-link>
+                            </li>
+                            <li class="text-sm font-bold text-white hover:text-blue-400">
                             <router-link :to="{name:'posts.tools'}" active-class="border-b-2 border-indigo-400" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
                                 Tools
                             </router-link>
