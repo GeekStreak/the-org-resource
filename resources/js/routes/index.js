@@ -12,6 +12,7 @@ import PostsEdit from '../components/Posts/Edit'
 import PostsResources from '../components/Posts/Resources'
 import Login from '../components/Login'
 import Welcome from '../components/Welcome'
+import PostsRandomChallenge from '../components/Posts/RandomChallenge'
 
 
 function auth(to, from, next) {
@@ -64,6 +65,12 @@ const routes = [
                 name: 'posts.resource',
                 component: PostsResource,
                 meta: { title: 'Challenges' }
+            },
+            {
+                path: '/posts/RandomChallenge',
+                name: 'posts.RandomChallenge',
+                component: PostsRandomChallenge,
+                meta: { title: 'Challenge Randomiser' }
             },
         ]
     },
