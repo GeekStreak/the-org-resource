@@ -25,6 +25,14 @@
             <br>
             <br>
         </tr>
+        <tr>
+            <h2 class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900"><b>Cast Card Graphic</b></h2>
+            <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">Simple photoshop file that allows you to make a basic information graphic for players in your org.</p>
+            <a class="px-6 py-2 whitespace-no-wrap text-sm leading-5 router-link-active" href="https://drive.google.com/file/d/1ZMIAZpS73hErhxouc8WpwgwM_LWJWBZh/view?usp=sharing">Download</a>
+            <img src="https://drive.google.com/uc?export=view&id=1y3xPHg5sRBU9H_wqxRiANT1mrl65g9xe" width="300" class="center">
+            <br>
+            <br>
+        </tr>
     </tbody>
 </body>
 </template>
