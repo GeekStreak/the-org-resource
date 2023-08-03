@@ -71,7 +71,7 @@ const routes = [
                 path: '/posts/more',
                 name: 'posts.more',
                 component: PostsMore,
-                meta: { title: 'More' }
+                meta: { title: 'More Resources' }
             },
             {
                 path: '/posts/RandomChallenge',
