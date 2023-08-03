@@ -12,7 +12,7 @@ import PostsEdit from '../components/Posts/Edit'
 import PostsResources from '../components/Posts/Resources'
 import Login from '../components/Login'
 import Welcome from '../components/Welcome'
-import PostsTools from '../components/Posts/Tools'
+import PostsMore from '../components/Posts/More'
 import PostsRandomChallenge from '../components/Posts/RandomChallenge'
 
 
@@ -68,10 +68,10 @@ const routes = [
                 meta: { title: 'Challenges' }
             },
             {
-                path: '/posts/tools',
-                name: 'posts.tools',
-                component: PostsTools,
-                meta: { title: 'Tools' }
+                path: '/posts/more',
+                name: 'posts.more',
+                component: PostsMore,
+                meta: { title: 'More' }
             },
             {
                 path: '/posts/RandomChallenge',
