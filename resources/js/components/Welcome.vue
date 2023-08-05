@@ -20,7 +20,7 @@
         <br>
         <br>
         <h3>Join our discord below</h3>
-        <a href="https://discord.gg/nnPS2Pzxe9">
+        <a href="https://discord.gg/sB5znWMetA">
         <img src="https://drive.google.com/uc?export=view&id=1tUrYfvXDyVSSDWKs2RghremB-F9SEgz9" width="300">
         </a>
         <br>
