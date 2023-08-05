@@ -14,6 +14,8 @@ import Login from '../components/Login'
 import Welcome from '../components/Welcome'
 import PostsMore from '../components/Posts/More'
 import PostsRandomChallenge from '../components/Posts/RandomChallenge'
+import PostsGeneralSites from '../components/Posts/GeneralSites'
+import PostsChallengeSites from '../components/Posts/ChallengeSites'
 
 
 function auth(to, from, next) {
@@ -71,13 +73,25 @@ const routes = [
                 path: '/posts/more',
                 name: 'posts.more',
                 component: PostsMore,
-                meta: { title: 'More Resources' }
+                meta: { title: 'More' }
             },
             {
                 path: '/posts/RandomChallenge',
                 name: 'posts.RandomChallenge',
                 component: PostsRandomChallenge,
                 meta: { title: 'Challenge Randomiser' }
+            },
+            {
+                path: '/posts/GeneralSites',
+                name: 'posts.GeneralSites',
+                component: PostsGeneralSites,
+                meta: { title: 'Useful Websites' }
+            },
+            {
+                path: '/posts/ChallengeSites',
+                name: 'posts.ChallengeSites',
+                component: PostsChallengeSites,
+                meta: { title: 'Websites for Challenges' }
             },
         ]
     },
