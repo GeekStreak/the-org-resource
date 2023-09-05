@@ -130,7 +130,7 @@
         </div>
         <br>
         <p>Are you a host that wants their org on this list? Join the discord below</p>
-        <a href="https://discord.gg/nnPS2Pzxe9">
+        <a href="https://discord.gg/sB5znWMetA">
         <img src="https://drive.google.com/uc?export=view&id=1tUrYfvXDyVSSDWKs2RghremB-F9SEgz9" width="300">
         </a>
     </div>
