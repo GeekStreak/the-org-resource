@@ -6,4 +6,5 @@ Built with Vue.js, Laravel and tailwind css. It's currently used by hundreds of 
 
 Website Link - www.theorgresource.com
 
-![image](https://github.com/GeekStreak/the-org-resource/assets/14207221/85e13cd1-a1d5-4fb8-b749-eba0027431d6)
+![image](https://github.com/GeekStreak/the-org-resource/assets/14207221/1c9dd862-a022-4cc5-884c-0510e1b84956)
+
