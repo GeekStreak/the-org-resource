@@ -8,7 +8,7 @@
                         <!-- Logo -->
                         <div class="shrink-0 flex items-center">
                             <router-link :to="{name:'welcome'}" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
-                                <img src="https://drive.google.com/uc?export=view&id=1skSaMLEtwko6BSfdT26umo0w4ti6L6qd" class="block h-10 w-auto fill-current text-gray-600">
+                                <img src="https://the-org-resource-images.s3.eu-west-2.amazonaws.com/Survivor/orgresource.png" class="block h-10 w-auto fill-current text-gray-600">
                             </router-link>
                         </div>
 
