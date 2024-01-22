@@ -13,7 +13,7 @@
             <h2 class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900"><b>Survivor Org Graphics Pack (Dark)</b></h2>
             <p class="px-6 py-2 whitespace-no-wrap text-sm leading-5 text-gray-900">Simple Graphics Pack for hosting your own survivor org, includes Tribe Graphics, Day Counter, Episode Card and Dates Card. Includes PSD files for photoshop and png images.</p>
             <a class="px-6 py-2 whitespace-no-wrap text-sm leading-5 router-link-active" href="https://drive.google.com/drive/folders/12Xnrn7mBeXV4YWaXPQyzmkjlqT3lUVIS?usp=sharing">Download</a>
-            <img src="https://the-org-resource-images.s3.eu-west-2.amazonaws.com/Survivor/Survivor+Graphics+Pack+(Dark)/TribeImageTemplate.png0" width="300" class="center">
+            <img src="https://the-org-resource-images.s3.eu-west-2.amazonaws.com/Survivor/Survivor+Graphics+Pack+(Dark)/TribeImageTemplate.png" width="300" class="center">
             <br>
             <br>
         </tr>

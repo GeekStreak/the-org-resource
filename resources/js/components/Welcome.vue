@@ -21,7 +21,7 @@
         <br>
         <h3>Join our discord below</h3>
         <a href="https://discord.gg/sB5znWMetA">
-        <img src="https://drive.google.com/uc?export=view&id=1tUrYfvXDyVSSDWKs2RghremB-F9SEgz9" width="300">
+        <img src="https://the-org-resource-images.s3.eu-west-2.amazonaws.com/Survivor/62a07b53139aec4c1fd07771_discord-logo.png" width="300">
         </a>
         <br>
         <br>
