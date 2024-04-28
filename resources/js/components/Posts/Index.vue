@@ -130,7 +130,7 @@
         </div>
         <br>
         <p>Are you a host that wants their org on this list? Join the discord below</p>
-        <a href="https://discord.gg/sB5znWMetA">
+        <a href="https://discord.gg/zV7HJA85Qk">
         <img src="https://the-org-resource-images.s3.eu-west-2.amazonaws.com/Survivor/62a07b53139aec4c1fd07771_discord-logo.png" width="300">
         </a>
     </div>
